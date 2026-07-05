@@ -75,7 +75,7 @@ export default function Inicio() {
         </div>
         <div className="simple-hero-image">
           <img
-            src="/img/inicio-hero.webp"
+            src="/img/inicio-hero-aula64-familia.webp"
             alt="Clase de ajedrez educativa Aula64"
           />
         </div>
