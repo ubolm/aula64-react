@@ -115,6 +115,28 @@ npm run build
 
 Si Vercel o Netlify están conectados al repositorio, el deploy queda automatizado desde GitHub.
 
+## Docker
+
+El proyecto incluye una configuración inicial para desplegar el sitio en un
+servidor con Docker.
+
+Para probarlo en el servidor:
+
+```bash
+git clone https://github.com/ubolm/aula64-react.git
+cd aula64-react
+docker compose up -d --build
+```
+
+La primera prueba publica el sitio en:
+
+```text
+http://IP_DEL_SERVIDOR:8080
+```
+
+Más adelante se puede poner Nginx, Caddy o Traefik por delante para usar el
+dominio final, HTTPS y otros servicios en subdominios.
+
 ## Notas legales
 
 Las páginas legales son orientativas para una web educativa. Si Aula64 incorpora pagos online, cuentas de usuario, formularios avanzados, newsletter, analítica publicitaria o plataforma privada, conviene revisarlas legalmente.

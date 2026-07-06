@@ -1,0 +1,9 @@
+services:
+  aula64-web:
+    build:
+      context: .
+    container_name: aula64-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+
