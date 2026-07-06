@@ -7,7 +7,7 @@ const values = [
   },
   {
     title: "Experiencia",
-    text: "Más de 40 años enseñando a niños de 5 a 8 años, adultos e instituciones."
+    text: "Más de 40 años enseñando a niños, adultos e instituciones."
   },
   {
     title: "Tecnología",
@@ -109,7 +109,8 @@ export default function SobreNosotros() {
           <p>
             Es la primera historia educativa del proyecto: una propuesta visual
             para que niños y niñas de 5 a 8 años aprendan ajedrez con curiosidad
-            y guía docente.
+            y guía docente. Para mayores de 8 años, Aula64 trabaja con otros
+            recorridos de aprendizaje.
           </p>
         </div>
         <Link className="btn primary" to="/chesscity">Conocer ChessCity</Link>

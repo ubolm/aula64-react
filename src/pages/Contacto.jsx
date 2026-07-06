@@ -6,8 +6,8 @@ const whatsappUrl = `https://wa.me/5491168313769?text=${whatsappText}`;
 
 const contactReasons = [
   "ChessCity para 5 a 8 años",
+  "Clases para mayores de 8",
   "Clases para adultos",
-  "Entrenamiento para adultos",
   "Talleres para instituciones"
 ];
 

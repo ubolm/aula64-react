@@ -24,7 +24,6 @@ const classSteps = [
 
 const fitList = [
   "Tiene entre 5 y 8 años",
-  "No está pensado para mayores de 8 años",
   "Empieza ajedrez desde cero",
   "Aprende mejor con imágenes e historias",
   "Necesita confianza antes de competir",
@@ -41,7 +40,8 @@ export default function ChessCity() {
           <p>
             ChessCity es la propuesta de Aula64 para que niños y niñas de 5 a 8
             años entren al ajedrez con imágenes, historia, misiones y guía
-            docente. Actualmente no está pensada para mayores de 8 años.
+            docente. Para mayores de 8 años, Aula64 ofrece otros recorridos de
+            aprendizaje según edad, nivel y objetivo.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por ChessCity</Link>
@@ -116,7 +116,9 @@ export default function ChessCity() {
           <h2>Ideal para niños y niñas de 5 a 8 años.</h2>
           <p>
             ChessCity funciona especialmente bien cuando el aprendizaje necesita
-            ser visual, participativo y paciente dentro de esa etapa.
+            ser visual, participativo y paciente dentro de esa etapa. Si el
+            estudiante es mayor de 8 años, podemos orientar otra modalidad de
+            clase.
           </p>
         </div>
         <ul>

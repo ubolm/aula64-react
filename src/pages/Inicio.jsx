@@ -7,7 +7,7 @@ const benefits = [
   },
   {
     title: "Para cada etapa",
-    text: "Niños y niñas de 5 a 8 años, adultos e instituciones encuentran una propuesta adaptada a su ritmo."
+    text: "ChessCity acompaña de 5 a 8 años. Para mayores de 8, adultos e instituciones, Aula64 propone otros recorridos."
   },
   {
     title: "Acompañamiento real",
@@ -17,7 +17,7 @@ const benefits = [
 
 const programs = [
   {
-    label: "5 a 8 años",
+    label: "Infantil",
     title: "ChessCity",
     text: "Una aventura visual para que niños y niñas de 5 a 8 años aprendan jugando, pensando y resolviendo desafíos.",
     image: "/img/propuesta-ninos.webp",
@@ -33,9 +33,9 @@ const programs = [
     link: "Ver clases"
   },
   {
-    label: "Adultos",
-    title: "Entrenamiento con método",
-    text: "Trabajo para adultos sobre partidas, cálculo, estrategia y toma de decisiones para progresar en serio.",
+    label: "Mayores de 8",
+    title: "Otros recorridos",
+    text: "Clases con otro método para chicos y chicas mayores de 8 años, según edad, nivel y objetivo.",
     image: "/img/propuesta-jovenes.webp",
     to: "/clases",
     link: "Ver entrenamiento"
@@ -65,8 +65,9 @@ export default function Inicio() {
           <span className="eyebrow">Aula64</span>
           <h1>Ajedrez educativo, claro y personalizado.</h1>
           <p>
-            Clases para niños y niñas de 5 a 8 años, adultos e instituciones.
-            Aprendé a mirar, pensar y decidir mejor con una guía cercana.
+            ChessCity para niños y niñas de 5 a 8 años. Otros recorridos para
+            mayores de 8, adultos e instituciones. Aprendé a mirar, pensar y
+            decidir mejor con una guía cercana.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por clases</Link>

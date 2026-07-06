@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const audiences = [
   {
-    label: "5 a 8 años",
+    label: "Infantil",
     title: "ChessCity",
     text: "Una aventura visual para niños y niñas de 5 a 8 años, con juego, entusiasmo y desafíos guiados.",
     image: "/img/propuesta-ninos.webp",
@@ -18,9 +18,9 @@ const audiences = [
     link: "Consultar"
   },
   {
-    label: "Adultos",
-    title: "Entrenamiento con método",
-    text: "Entrenamiento para adultos sobre partidas, cálculo, estrategia, aperturas y toma de decisiones.",
+    label: "Mayores de 8",
+    title: "Otros recorridos",
+    text: "Clases con otro método para chicos y chicas mayores de 8 años, según edad, nivel y objetivo.",
     image: "/img/propuesta-jovenes.webp",
     to: "/contacto",
     link: "Consultar entrenamiento"
@@ -65,9 +65,9 @@ export default function Clases() {
           <span className="eyebrow">Clases Aula64</span>
           <h1>Clases de ajedrez para aprender con claridad.</h1>
           <p>
-            Para niños y niñas de 5 a 8 años, adultos e instituciones. Primero
-            entendemos el objetivo; después elegimos el camino más simple para
-            avanzar.
+            ChessCity es para niños y niñas de 5 a 8 años. Para mayores de 8,
+            adultos e instituciones, Aula64 propone otros recorridos según edad,
+            nivel y objetivo.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por clases</Link>
@@ -145,8 +145,8 @@ export default function Clases() {
           <span className="eyebrow">Experiencia</span>
           <h2>Guiadas por el Maestro FIDE Alejandro Uboldi.</h2>
           <p>
-            Más de 40 años enseñando ajedrez a niños de 5 a 8 años, adultos e
-            instituciones, con una mirada educativa, humana y práctica.
+            Más de 40 años enseñando ajedrez a niños, adultos e instituciones,
+            con una mirada educativa, humana y práctica.
           </p>
         </div>
         <div className="classes-proof-grid" aria-label="Datos de experiencia">
