@@ -18,9 +18,9 @@ const audiences = [
     link: "Consultar"
   },
   {
-    label: "Jugadores",
-    title: "Mejorar con método",
-    text: "Entrenamiento sobre partidas, cálculo, estrategia, aperturas y toma de decisiones.",
+    label: "Adultos",
+    title: "Entrenamiento con método",
+    text: "Entrenamiento para adultos sobre partidas, cálculo, estrategia, aperturas y toma de decisiones.",
     image: "/img/propuesta-jovenes.webp",
     to: "/contacto",
     link: "Consultar entrenamiento"
@@ -65,9 +65,9 @@ export default function Clases() {
           <span className="eyebrow">Clases Aula64</span>
           <h1>Clases de ajedrez para aprender con claridad.</h1>
           <p>
-            Para niños y niñas de 5 a 8 años, jóvenes, adultos e instituciones.
-            Primero entendemos el objetivo; después elegimos el camino más
-            simple para avanzar.
+            Para niños y niñas de 5 a 8 años, adultos e instituciones. Primero
+            entendemos el objetivo; después elegimos el camino más simple para
+            avanzar.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por clases</Link>
@@ -145,8 +145,8 @@ export default function Clases() {
           <span className="eyebrow">Experiencia</span>
           <h2>Guiadas por el Maestro FIDE Alejandro Uboldi.</h2>
           <p>
-            Más de 40 años enseñando ajedrez a alumnos de distintas edades y
-            niveles, con una mirada educativa, humana y práctica.
+            Más de 40 años enseñando ajedrez a niños de 5 a 8 años, adultos e
+            instituciones, con una mirada educativa, humana y práctica.
           </p>
         </div>
         <div className="classes-proof-grid" aria-label="Datos de experiencia">

@@ -7,7 +7,7 @@ const benefits = [
   },
   {
     title: "Para cada etapa",
-    text: "Niños y niñas de 5 a 8 años, jóvenes, adultos e instituciones encuentran una propuesta adaptada a su ritmo."
+    text: "Niños y niñas de 5 a 8 años, adultos e instituciones encuentran una propuesta adaptada a su ritmo."
   },
   {
     title: "Acompañamiento real",
@@ -33,9 +33,9 @@ const programs = [
     link: "Ver clases"
   },
   {
-    label: "Entrenamiento",
-    title: "Mejorar con método",
-    text: "Trabajo sobre partidas, cálculo, estrategia y toma de decisiones para progresar en serio.",
+    label: "Adultos",
+    title: "Entrenamiento con método",
+    text: "Trabajo para adultos sobre partidas, cálculo, estrategia y toma de decisiones para progresar en serio.",
     image: "/img/propuesta-jovenes.webp",
     to: "/clases",
     link: "Ver entrenamiento"
@@ -65,9 +65,8 @@ export default function Inicio() {
           <span className="eyebrow">Aula64</span>
           <h1>Ajedrez educativo, claro y personalizado.</h1>
           <p>
-            Clases para niños y niñas de 5 a 8 años, jóvenes, adultos e
-            instituciones. Aprendé a mirar, pensar y decidir mejor con una guía
-            cercana.
+            Clases para niños y niñas de 5 a 8 años, adultos e instituciones.
+            Aprendé a mirar, pensar y decidir mejor con una guía cercana.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por clases</Link>

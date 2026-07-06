@@ -26,7 +26,7 @@ export default function CondicionesUso() {
         <p>
           Aula64 es una propuesta de enseñanza de ajedrez educativo, clases
           online, recursos visuales, materiales didácticos y experiencias
-          pedagógicas para distintas edades y objetivos.
+          pedagógicas para niños y niñas de 5 a 8 años, adultos e instituciones.
         </p>
 
         <h2>2. Uso del sitio</h2>
@@ -41,20 +41,20 @@ export default function CondicionesUso() {
           modalidad se acuerdan directamente por los canales de contacto.
         </p>
 
-        <h2>3. Clases para menores de edad</h2>
+        <h2>3. Clases para niños y niñas</h2>
         <p>
-          Las consultas, reservas y comunicaciones relacionadas con clases para
-          niños, niñas o adolescentes deben ser realizadas por una madre, padre,
-          tutor o adulto responsable.
+          La propuesta infantil actual de Aula64, incluyendo ChessCity, está
+          dirigida a niños y niñas de 5 a 8 años.
+        </p>
+        <p>
+          Las consultas, reservas y comunicaciones relacionadas con menores de
+          edad deben ser realizadas por una madre, padre, tutor o adulto
+          responsable.
         </p>
         <p>
           Aula64 no solicita a menores datos personales innecesarios. La
           información sobre edad, nivel, objetivo o necesidades de aprendizaje se
           utiliza únicamente para orientar mejor la propuesta educativa.
-        </p>
-        <p>
-          Las clases online para menores deben realizarse con conocimiento y
-          autorización del adulto responsable.
         </p>
 
         <h2>4. Comunicación</h2>

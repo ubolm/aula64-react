@@ -41,8 +41,8 @@ export default function Footer() {
               }}
             />
           </Link>
-          <p className="footer-tagline">Ajedrez educativo para todas las edades.</p>
-          <p className="footer-small">ChessCity es la primera historia educativa de Aula64.</p>
+          <p className="footer-tagline">Ajedrez educativo para 5 a 8 años, adultos e instituciones.</p>
+          <p className="footer-small">ChessCity es para niños y niñas de 5 a 8 años.</p>
         </div>
 
         <div className="footer-column">

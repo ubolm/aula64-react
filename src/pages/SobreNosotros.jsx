@@ -7,7 +7,7 @@ const values = [
   },
   {
     title: "Experiencia",
-    text: "Más de 40 años enseñando a alumnos de distintas edades."
+    text: "Más de 40 años enseñando a niños de 5 a 8 años, adultos e instituciones."
   },
   {
     title: "Tecnología",

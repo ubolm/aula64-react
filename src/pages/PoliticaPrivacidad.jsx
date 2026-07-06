@@ -47,7 +47,8 @@ export default function PoliticaPrivacidad() {
 
         <h2>3. Datos de menores de edad</h2>
         <p>
-          En el caso de niños, niñas o adolescentes, la consulta debe ser
+          La propuesta infantil actual de Aula64 está dirigida a niños y niñas
+          de 5 a 8 años. Toda consulta relacionada con menores de edad debe ser
           realizada por una madre, padre, tutor o adulto responsable.
         </p>
         <p>
