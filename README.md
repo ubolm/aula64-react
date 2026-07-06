@@ -128,10 +128,10 @@ cd aula64-react
 docker compose up -d --build
 ```
 
-La primera prueba publica el sitio en:
+La configuración publica el sitio en:
 
 ```text
-http://IP_DEL_SERVIDOR:8080
+http://IP_DEL_SERVIDOR
 ```
 
 Más adelante se puede poner Nginx, Caddy o Traefik por delante para usar el

@@ -5,5 +5,4 @@ services:
     container_name: aula64-web
     restart: unless-stopped
     ports:
-      - "8080:80"
-
+      - "80:80"
