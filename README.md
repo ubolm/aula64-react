@@ -131,11 +131,11 @@ docker compose up -d --build
 La configuración publica el sitio en:
 
 ```text
-http://IP_DEL_SERVIDOR
+https://www.aula64.com.ar
 ```
 
-Más adelante se puede poner Nginx, Caddy o Traefik por delante para usar el
-dominio final, HTTPS y otros servicios en subdominios.
+El servicio `caddy` recibe tráfico en los puertos `80` y `443`, obtiene el
+certificado SSL automáticamente y reenvía el tráfico al contenedor `aula64-web`.
 
 ## Notas legales
 

@@ -1,8 +1,26 @@
 services:
+  caddy:
+    image: caddy:2.9-alpine
+    container_name: aula64-caddy
+    restart: unless-stopped
+    depends_on:
+      - aula64-web
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
   aula64-web:
     build:
       context: .
     container_name: aula64-web
     restart: unless-stopped
-    ports:
-      - "80:80"
+    expose:
+      - "80"
+
+volumes:
+  caddy_data:
+  caddy_config:
