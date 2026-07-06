@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { trackContactClick } from "../utils/analytics";
 
 const whatsappText = encodeURIComponent(
   "Hola, quiero informacion sobre clases de ajedrez en Aula64.",
@@ -27,6 +28,7 @@ export default function FloatingActions() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Escribir por WhatsApp"
+        onClick={() => trackContactClick("whatsapp", "floating_action")}
       >
         WA
       </a>

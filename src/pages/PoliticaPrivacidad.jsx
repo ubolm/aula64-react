@@ -1,3 +1,5 @@
+import { trackContactClick } from "../utils/analytics";
+
 export default function PoliticaPrivacidad() {
   return (
     <main className="legal-page">
@@ -27,7 +29,12 @@ export default function PoliticaPrivacidad() {
         <p>
           El responsable de este sitio y de la propuesta Aula64 es Alejandro
           Uboldi. Para consultas relacionadas con privacidad, podés escribir a{" "}
-          <a href="mailto:profeale1914@gmail.com">profeale1914@gmail.com</a>.
+          <a
+            href="mailto:profeale1914@gmail.com"
+            onClick={() => trackContactClick("email", "privacy_responsible")}
+          >
+            profeale1914@gmail.com
+          </a>.
         </p>
 
         <h2>2. Datos que podemos recibir</h2>
@@ -93,7 +100,12 @@ export default function PoliticaPrivacidad() {
         <p>
           Podés solicitar acceso, rectificación, actualización o supresión de tus
           datos personales escribiendo a{" "}
-          <a href="mailto:profeale1914@gmail.com">profeale1914@gmail.com</a>.
+          <a
+            href="mailto:profeale1914@gmail.com"
+            onClick={() => trackContactClick("email", "privacy_rights")}
+          >
+            profeale1914@gmail.com
+          </a>.
         </p>
 
         <h2>9. Seguridad</h2>

@@ -1,3 +1,5 @@
+import { trackContactClick } from "../utils/analytics";
+
 const whatsappText = encodeURIComponent(
   "Hola, quiero información sobre clases de ajedrez en Aula64.\nEdad del estudiante:\nNivel aproximado:\nObjetivo:\nDisponibilidad horaria:"
 );
@@ -31,10 +33,20 @@ export default function Contacto() {
             ChessCity, clases para adultos, entrenamiento o talleres.
           </p>
           <div className="actions">
-            <a className="btn primary" href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            <a
+              className="btn primary"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => trackContactClick("whatsapp", "contact_hero")}
+            >
               Escribir por WhatsApp
             </a>
-            <a className="btn secondary" href="mailto:profeale1914@gmail.com">
+            <a
+              className="btn secondary"
+              href="mailto:profeale1914@gmail.com"
+              onClick={() => trackContactClick("email", "contact_hero")}
+            >
               Escribir por email
             </a>
           </div>
@@ -48,7 +60,12 @@ export default function Contacto() {
           <span>Contacto directo</span>
           <strong>+54 9 11 6831-3769</strong>
           <p>WhatsApp es el camino más simple para coordinar una primera consulta.</p>
-          <a href="mailto:profeale1914@gmail.com">profeale1914@gmail.com</a>
+          <a
+            href="mailto:profeale1914@gmail.com"
+            onClick={() => trackContactClick("email", "contact_card")}
+          >
+            profeale1914@gmail.com
+          </a>
         </aside>
       </section>
 
@@ -89,7 +106,13 @@ export default function Contacto() {
           <h2>Te ayudamos a elegir el mejor camino.</h2>
           <p>Escribinos y te respondemos con una orientación simple.</p>
         </div>
-        <a className="btn primary" href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+        <a
+          className="btn primary"
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={() => trackContactClick("whatsapp", "contact_final")}
+        >
           Consultar ahora
         </a>
       </section>

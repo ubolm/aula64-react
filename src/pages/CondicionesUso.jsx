@@ -1,3 +1,5 @@
+import { trackContactClick } from "../utils/analytics";
+
 export default function CondicionesUso() {
   return (
     <main className="legal-page">
@@ -106,9 +108,20 @@ export default function CondicionesUso() {
         <h2>10. Contacto</h2>
         <p>
           Para consultas sobre estas condiciones, escribí a{" "}
-          <a href="mailto:profeale1914@gmail.com">profeale1914@gmail.com</a> o
+          <a
+            href="mailto:profeale1914@gmail.com"
+            onClick={() => trackContactClick("email", "terms")}
+          >
+            profeale1914@gmail.com
+          </a>{" "}
+          o
           por WhatsApp al{" "}
-          <a href="https://wa.me/5491168313769" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://wa.me/5491168313769"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => trackContactClick("whatsapp", "terms")}
+          >
             +54 9 11 6831-3769
           </a>.
         </p>

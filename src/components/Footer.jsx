@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { trackContactClick } from "../utils/analytics";
 
 const socialLinks = [
   {
@@ -58,12 +59,19 @@ export default function Footer() {
 
         <div className="footer-column footer-contact">
           <h3>Contacto</h3>
-          <a className="footer-email" href="mailto:profeale1914@gmail.com">profeale1914@gmail.com</a>
+          <a
+            className="footer-email"
+            href="mailto:profeale1914@gmail.com"
+            onClick={() => trackContactClick("email", "footer")}
+          >
+            profeale1914@gmail.com
+          </a>
           <a
             className="footer-whatsapp"
             href="https://wa.me/5491168313769?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20clases%20de%20ajedrez%20en%20Aula64.%20Edad%3A%20%20Nivel%3A%20%20Objetivo%3A%20"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackContactClick("whatsapp", "footer")}
           >
             Consultar por WhatsApp
           </a>
