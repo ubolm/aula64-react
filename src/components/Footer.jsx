@@ -61,10 +61,10 @@ export default function Footer() {
           <h3>Contacto</h3>
           <a
             className="footer-email"
-            href="mailto:profeale1914@gmail.com"
+            href="mailto:contacto@aula64.com.ar"
             onClick={() => trackContactClick("email", "footer")}
           >
-            profeale1914@gmail.com
+            contacto@aula64.com.ar
           </a>
           <a
             className="footer-whatsapp"

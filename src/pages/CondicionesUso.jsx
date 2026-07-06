@@ -109,10 +109,10 @@ export default function CondicionesUso() {
         <p>
           Para consultas sobre estas condiciones, escribí a{" "}
           <a
-            href="mailto:profeale1914@gmail.com"
+            href="mailto:contacto@aula64.com.ar"
             onClick={() => trackContactClick("email", "terms")}
           >
-            profeale1914@gmail.com
+            contacto@aula64.com.ar
           </a>{" "}
           o
           por WhatsApp al{" "}

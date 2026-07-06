@@ -44,7 +44,7 @@ export default function Contacto() {
             </a>
             <a
               className="btn secondary"
-              href="mailto:profeale1914@gmail.com"
+              href="mailto:contacto@aula64.com.ar"
               onClick={() => trackContactClick("email", "contact_hero")}
             >
               Escribir por email
@@ -61,10 +61,10 @@ export default function Contacto() {
           <strong>+54 9 11 6831-3769</strong>
           <p>WhatsApp es el camino más simple para coordinar una primera consulta.</p>
           <a
-            href="mailto:profeale1914@gmail.com"
+            href="mailto:contacto@aula64.com.ar"
             onClick={() => trackContactClick("email", "contact_card")}
           >
-            profeale1914@gmail.com
+            contacto@aula64.com.ar
           </a>
         </aside>
       </section>
