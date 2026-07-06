@@ -1,4 +1,8 @@
-aula64.com.ar, www.aula64.com.ar {
+www.aula64.com.ar {
   encode gzip
   reverse_proxy aula64-web:80
+}
+
+aula64.com.ar {
+  redir https://www.aula64.com.ar{uri} permanent
 }
