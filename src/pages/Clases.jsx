@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const audiences = [
   {
-    label: "Niños",
+    label: "5 a 8 años",
     title: "ChessCity",
-    text: "Una aventura visual para empezar ajedrez con entusiasmo, juego y desafíos guiados.",
+    text: "Una aventura visual para niños y niñas de 5 a 8 años, con juego, entusiasmo y desafíos guiados.",
     image: "/img/propuesta-ninos.webp",
     to: "/chesscity",
     link: "Conocer ChessCity"
@@ -65,8 +65,9 @@ export default function Clases() {
           <span className="eyebrow">Clases Aula64</span>
           <h1>Clases de ajedrez para aprender con claridad.</h1>
           <p>
-            Para niños, jóvenes, adultos e instituciones. Primero entendemos el
-            objetivo; después elegimos el camino más simple para avanzar.
+            Para niños y niñas de 5 a 8 años, jóvenes, adultos e instituciones.
+            Primero entendemos el objetivo; después elegimos el camino más
+            simple para avanzar.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por clases</Link>

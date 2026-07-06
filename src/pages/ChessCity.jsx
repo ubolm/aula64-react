@@ -23,6 +23,7 @@ const classSteps = [
 ];
 
 const fitList = [
+  "Tiene entre 5 y 8 años",
   "Empieza ajedrez desde cero",
   "Aprende mejor con imágenes e historias",
   "Necesita confianza antes de competir",
@@ -37,8 +38,9 @@ export default function ChessCity() {
           <span className="eyebrow">ChessCity</span>
           <h1>Una aventura para aprender ajedrez.</h1>
           <p>
-            ChessCity es la propuesta de Aula64 para que chicos y chicas entren
-            al ajedrez con imágenes, historia, misiones y guía docente.
+            ChessCity es la propuesta de Aula64 para que niños y niñas de 5 a 8
+            años entren al ajedrez con imágenes, historia, misiones y guía
+            docente.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por ChessCity</Link>
@@ -110,7 +112,7 @@ export default function ChessCity() {
       <section className="cc-fit-simple">
         <div>
           <span className="eyebrow">Para quién</span>
-          <h2>Ideal para chicos que necesitan otra entrada al ajedrez.</h2>
+          <h2>Ideal para niños y niñas de 5 a 8 años.</h2>
           <p>
             ChessCity funciona especialmente bien cuando el aprendizaje necesita
             ser visual, participativo y paciente.

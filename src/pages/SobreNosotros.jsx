@@ -108,7 +108,8 @@ export default function SobreNosotros() {
           <h2>ChessCity nace dentro de Aula64.</h2>
           <p>
             Es la primera historia educativa del proyecto: una propuesta visual
-            para que los chicos aprendan ajedrez con curiosidad y guía docente.
+            para que niños y niñas de 5 a 8 años aprendan ajedrez con curiosidad
+            y guía docente.
           </p>
         </div>
         <Link className="btn primary" to="/chesscity">Conocer ChessCity</Link>

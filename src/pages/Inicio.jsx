@@ -6,8 +6,8 @@ const benefits = [
     text: "Explicaciones simples, tablero visual y ejercicios guiados para entender antes de competir."
   },
   {
-    title: "Para cada edad",
-    text: "Niños, jóvenes, adultos e instituciones encuentran una propuesta adaptada a su ritmo."
+    title: "Para cada etapa",
+    text: "Niños y niñas de 5 a 8 años, jóvenes, adultos e instituciones encuentran una propuesta adaptada a su ritmo."
   },
   {
     title: "Acompañamiento real",
@@ -17,9 +17,9 @@ const benefits = [
 
 const programs = [
   {
-    label: "Niños",
+    label: "5 a 8 años",
     title: "ChessCity",
-    text: "Una aventura visual para aprender ajedrez jugando, pensando y resolviendo desafíos.",
+    text: "Una aventura visual para que niños y niñas de 5 a 8 años aprendan jugando, pensando y resolviendo desafíos.",
     image: "/img/propuesta-ninos.webp",
     to: "/chesscity",
     link: "Conocer ChessCity"
@@ -65,8 +65,9 @@ export default function Inicio() {
           <span className="eyebrow">Aula64</span>
           <h1>Ajedrez educativo, claro y personalizado.</h1>
           <p>
-            Clases para niños, jóvenes, adultos e instituciones. Aprendé a mirar,
-            pensar y decidir mejor con una guía cercana.
+            Clases para niños y niñas de 5 a 8 años, jóvenes, adultos e
+            instituciones. Aprendé a mirar, pensar y decidir mejor con una guía
+            cercana.
           </p>
           <div className="actions">
             <Link className="btn primary" to="/contacto">Consultar por clases</Link>
@@ -107,12 +108,12 @@ export default function Inicio() {
           />
         </div>
         <div className="simple-feature-copy">
-          <span className="eyebrow">Para niños</span>
+          <span className="eyebrow">Para 5 a 8 años</span>
           <h2>ChessCity</h2>
           <p>
             La primera historia educativa de Aula64. Una aventura visual para
-            que los chicos aprendan ajedrez con misiones, personajes y desafíos
-            progresivos.
+            que niños y niñas de 5 a 8 años aprendan ajedrez con misiones,
+            personajes y desafíos progresivos.
           </p>
           <Link className="btn primary" to="/chesscity">Conocer ChessCity</Link>
         </div>

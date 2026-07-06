@@ -5,7 +5,7 @@ const whatsappText = encodeURIComponent(
 const whatsappUrl = `https://wa.me/5491168313769?text=${whatsappText}`;
 
 const contactReasons = [
-  "ChessCity para niños",
+  "ChessCity para 5 a 8 años",
   "Clases para adultos",
   "Entrenamiento para jugadores",
   "Talleres para instituciones"
